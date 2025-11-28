@@ -18,6 +18,7 @@ html, body {
   background-color: #e0e0e0;
   color: #333;
    min-height: 100vh;
+   padding-bottom: 50px;
 }
 
 main {
@@ -366,32 +367,27 @@ section {
 /* FOOTER                     */
 /* ========================= */
 footer {
-  position: fixed;   
-  bottom: 0;         
-  left: 0;
-  width: 100%;
-  background: #000000;
-  padding: 10px 0;
+  background: #000;
   color: #fff;
+  padding: 10px 0;
   box-shadow: 0 -2px 5px rgba(0,0,0,0.3);
-  z-index: 1000;
 }
 
 .footer-container {
   display: flex;
-  flex-direction: column;     
-  align-items: center;        
+  flex-direction: column;
+  align-items: center;
   text-align: center;
 }
 
 .footer-text {
   font-size: 13px;
-  margin-bottom: 5px;        
+  margin-bottom: 5px;
 }
 
 .redes-footer {
-  display: flex;            
-  gap: 30px;   
+  display: flex;
+  gap: 30px;
 }
 
 .redes-footer img {
@@ -604,4 +600,8 @@ footer {
   display: flex;
   flex-direction: column;
   height: 100%;
+}
+
+.sobre-texto p {
+  margin-bottom: 20px; /* ajuste conforme quiser */
 }
